@@ -1,0 +1,218 @@
+body{
+  font-family: verdana;
+  font-size: 16px;
+  background-image:-webkit-linear-gradient(to right,rgba(0, 0, 0, 0.836), rgba(2, 2, 2, 0.2)),url("../images/lml.jpg");
+  background-image:linear-gradient(to right,rgba(0, 0, 0, 0.836), rgba(2, 2, 2, 0.2)),url("../images/lml.jpg");
+  background-size:cover;
+  background-attachment:fixed;
+  position:relative;
+  margin:0 auto;
+  width: 950px;
+}
+
+header{
+  width: 950px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px white;
+  background-color: inherit;
+  vertical-align: baseline;
+  text-align: center;
+  padding-top: 45px 0px 0px 0px;
+
+}
+#uab{
+  border-radius: 10px;
+  margin-top: 2px;
+  margin-left: 0px;
+  width: 150px;
+  height: 147px;
+  float: left;
+  background-color: white;
+}
+#uab2{
+  border-radius: 10px;
+  margin-top: 2px;
+  margin-right: 0px;
+  width: 150px;
+  height: 147px;
+  float: right;
+}
+header h1{
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+  font-size: 2.4em;
+}
+/* Inicia nav de la seccion de codigos */
+.nav{
+  text-align: center;
+  background-color:inherit;
+  box-shadow: 0px 0px 10px white;
+  border-radius: 10px;
+  margin-top: 5px;
+  border: 1px solid grey;
+  padding: 16px;
+}
+
+.nav a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 16px 4px 16px 4px;
+}
+.nav a:hover{
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  transition: .5s;
+}
+/* Termina nav de la seccion de index */
+
+
+/* Inicia nav de la seccion de codigos */
+.cod{
+  background-color:inherit;
+  color: white;
+  box-shadow: 0px 0px 10px white;
+  border-radius: 10px;
+  margin-top: 5px;
+  border: 1px solid grey;
+  padding: 16px;
+  margin-bottom: 50px;
+}
+.cod a{
+  text-decoration: none;
+  text-align: left;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+.cod a:hover{
+  border-radius: 20px;
+  color: red;
+
+}
+.cod h2{
+text-align: center;
+}
+.cod li{
+  margin-left: 370px;
+}
+/* termina nav de la seccion de codigos */
+
+/* Inicia Nav de la pagina de contacto */
+.cont{
+  background-color:inherit;
+  color: white;
+  box-shadow: 0px 0px 10px white;
+  border-radius: 10px;
+  margin-top: 5px;
+  border: 1px solid grey;
+  padding: 16px;
+  margin-bottom: 50px;
+}
+.cont a{
+  text-decoration: none;
+  text-align: left;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+.cont a:hover{
+  border-radius: 20px;
+  color: red;
+
+}
+.cont h2{
+text-align: center;
+}
+.cont h3{
+text-align: center;
+}
+.cont li{
+  margin-left: 370px;
+}
+.cont img{
+  margin-left: 180px;;
+  height: 60px;
+  weight: 60px;
+}
+/* termina nav de la seccion de contacto */
+
+#contenedor{
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 0 0 16px white;
+  background-color: #E9ECED;
+  margin: 5px;
+  padding: 16px;
+}
+
+#contenedor p{
+  text-align: justify;
+}
+
+#contenedor img{
+  width: 904px;
+  border-radius: 20px;
+}
+#Nota_Primaria {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#separador{
+  border: 1px dotted black;
+}
+
+#Nota_Secundaria {
+  margin-bottom: 5px;
+  height: 385px;
+}
+.Galeria {
+  width: 280px;
+  padding: 10px;
+  float: left;
+}
+#Nota_Secundaria article img{
+  width: 285px;
+  height: 290px;
+}
+#Nota_Secundaria a{
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#Nota_Secundaria a:hover{
+  background-color: #f9f9f9;
+  color: grey;
+  border-radius: 10px;
+}
+
+
+/* Inicia la sección de los codigos */
+.navcod{
+  background-color:inherit;
+  text-align: center;
+  font-size: 1.3em;
+  color: white;
+  box-shadow: 0px 0px 10px white;
+  border-radius: 10px;
+  margin-top: 5px;
+  border: 1px solid grey;
+  padding: 16px;
+  margin-bottom: 50px;
+}
+.canvas {
+  margin: auto;
+  margin-top: 0px;
+  border-radius: 10px;
+  height: 400px;
+  width: 600px;
+  border: 3px solid white;
+  padding: 10px;
+  margin-bottom: 30px;
+}
